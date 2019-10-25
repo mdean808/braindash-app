@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import Starscream
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var socket: WebSocket!
+    var state = "creating"
+    var nick: String?
+    var thisPlayer: Player?
+    var game: Game?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 

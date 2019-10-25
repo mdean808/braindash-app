@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (4.8.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - FontAwesome.swift (1.4.6)
+  - GradientView (2.3.3)
+  - Hero (1.4.0)
+  - LGButton (1.0.5)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - RAMPaperSwitch (3.0.0)
+  - SnapKit (4.0.1)
+  - Starscream (3.0.6)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - FontAwesome.swift
+  - GradientView
+  - Hero
+  - LGButton
+  - NVActivityIndicatorView
+  - RAMPaperSwitch
+  - SnapKit (~> 4.0.0)
+  - Starscream (~> 3.0.2)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FontAwesome.swift
+    - GradientView
+    - Hero
+    - LGButton
+    - NVActivityIndicatorView
+    - RAMPaperSwitch
+    - SnapKit
+    - Starscream
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FontAwesome.swift: 18fb500c0decc2bbfadf2ae16a936704ec2c49bd
+  GradientView: b044fa46c24062ee245a07a4e8bea4c5c4d63de0
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  LGButton: 707ce916eb80b73a6c4688df34bee11adbafb663
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  RAMPaperSwitch: 9b81604ec2e7d6dda3fd2cbac53eb012f7a5cc87
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: bd16937a6f8ef9df127440b51de9ff14bc1a3f52
+
+COCOAPODS: 1.5.3
